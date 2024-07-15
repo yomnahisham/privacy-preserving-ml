@@ -14,7 +14,7 @@ A tool for privacy-preserving data mining, allowing secure data analysis without
 This project aims to provide a robust tool for performing data mining tasks while preserving the privacy of individual data points. By adding noise to the data, we can ensure that sensitive information is protected while still enabling meaningful analysis.
 
 #### Features:
-- **Differential Privacy:** Implements differential privacy techniques to protect individual data points.
+- **Differential Privacy:** Implements the Laplace mechanism for differential privacy to protect individual data points.
 - **Data Mining:** Supports various data mining tasks such as classification and clustering.
 - **Versatility:** Tested on multiple datasets to demonstrate its applicability.
 
