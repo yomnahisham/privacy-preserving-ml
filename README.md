@@ -29,7 +29,7 @@ To get started with the Privacy-Preserving Machine Learning Implementation, foll
 
 1. Clone the repository:
    ```sh
-   git clone [[GitHub Repository Link](https://github.com/yomnahisham/privacy-preserving-ml)]
+   git clone https://github.com/yomnahisham/privacy-preserving-ml
    cd privacy-preserving-ml
    ```
 
