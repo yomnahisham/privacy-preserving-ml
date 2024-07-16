@@ -1,5 +1,5 @@
-# Privacy-Preserving Data Mining Tool
-A tool for privacy-preserving data mining, allowing secure data analysis without exposing individual data points by implementing differential privacy techniques to ensure data security and privacy.
+# Privacy-Preserving Machine Learning Implementation
+A script for privacy-preserving machine learning implementation, allowing secure data analysis without exposing individual data points by implementing differential privacy techniques to ensure data security and privacy.
 
 #### Table of Contents:
 - [Introduction](#introduction)
@@ -22,32 +22,32 @@ This project aims to provide a robust tool for performing data mining tasks whil
 The tool has been tested on the following datasets:
 - **Iris dataset:** A classic dataset for classification tasks.
 - **Wine dataset:** Another classification dataset to test the tool's robustness.
-- **Synthetic Adult Census Income dataset:** A synthetic version of the Adult Census Income dataset from UCI, used to demonstrate the tool's application to more sensitive data.
+- **Synthetic Adult Census Income dataset:** A well-known dataset from UCI, used to demonstrate the tool’s application to more sensitive data.
 
 #### Installation:
-To get started with the Privacy-Preserving Data Mining Tool, follow these steps:
+To get started with the Privacy-Preserving Machine Learning Implementation, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone [GitHub Repository Link]
+   git clone [[GitHub Repository Link](https://github.com/yomnahisham/privacy-preserving-ml)]
    cd privacy-preserving-ml
    ```
 
 2. Install the required libraries:
    ```sh
-   pip install pandas scikit-learn matplotlib jupyterlab
+   pip install pandas scikit-learn matplotlib jupyterlab numpy
    ```
 
 #### Usage:
-1. Start Jupyter Lab:
+1. Run the script: 
    ```sh
-   jupyter lab
+   python3 laplace.py
    ```
-
-2. Open the `differential_privacy_in_data_mining.ipynb` notebook and follow the steps to load, preprocess, and analyze the datasets.
+2. Modify the dataset_name variable in the laplace.py file to choose between ‘iris’, ‘wine’, ‘adult’, or your custom dataset.
+3. Adjust the epsilon parameter in the laplace.py file to vary the privacy level.
 
 #### Results:
-The tool has been evaluated on the Iris, Wine, and synthetic Adult Census Income datasets. The results demonstrate that our privacy-preserving techniques effectively protect sensitive information while maintaining a reasonable level of data utility.
+The tool has been evaluated on the Iris, Wine, and Adult Census Income datasets. The results demonstrate that our privacy-preserving techniques effectively protect sensitive information while maintaining a reasonable level of data utility.
 
 #### Contributing:
 Contributions are welcome! Please fork this repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
